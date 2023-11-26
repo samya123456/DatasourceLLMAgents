@@ -36,7 +36,9 @@ Send a POST request to `http://localhost:8000/prompt/db` with the following JSON
 ```json
 {
     "question": "Last name of Nancy"
-}
+} 
+
+```
 
 
 ## PDF Agent Setup
@@ -72,3 +74,4 @@ Example JSON payload:
 {
     "question":"contact number of the member"
 }
+```
