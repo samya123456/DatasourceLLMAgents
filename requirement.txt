@@ -19,3 +19,4 @@ kor
 scrapy
 googlesearch-python
 python-dotenv
+langchain

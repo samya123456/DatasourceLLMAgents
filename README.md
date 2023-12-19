@@ -8,7 +8,6 @@ DatasourceLLMAgents is an API designed to interact with various datasources, inc
 
     ```bash
     pip install -r requirements.txt
-    python3.11 -m pip install langchain==0.0.145
     ```
 
 2. Start the server using Uvicorn:
@@ -75,3 +74,10 @@ Example JSON payload:
     "question":"contact number of the member"
 }
 ```
+
+Example .env file:
+
+OPENAI_API_KEY=
+DB_URL=
+S3_BUCKET=bizzchatpdfsourcebucket1
+S3_PREFIX=barabellclub
